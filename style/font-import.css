@@ -1,0 +1,33 @@
+@import url(//db.onlinewebfonts.com/c/4944f4308352f169f622b1f098fa2203?family=Formula1+Display+Wide);
+@import url(//db.onlinewebfonts.com/c/06d0fb8eb5251a7dba7660fab5d2f0f9?family=Formula1+Display+Bold);
+@import url(//db.onlinewebfonts.com/c/39b9c22e1faf5a3e337ea935c1d1e318?family=Formula1+Display+Regular);
+
+@font-face {
+    font-family: "Formula1 Display Wide";
+    src: url("//db.onlinewebfonts.com/t/4944f4308352f169f622b1f098fa2203.eot");
+    src: url("//db.onlinewebfonts.com/t/4944f4308352f169f622b1f098fa2203.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/4944f4308352f169f622b1f098fa2203.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/4944f4308352f169f622b1f098fa2203.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/4944f4308352f169f622b1f098fa2203.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/4944f4308352f169f622b1f098fa2203.svg#Formula1 Display Wide") format("svg");
+}
+
+@font-face {
+    font-family: "Formula1 Display Bold";
+    src: url("//db.onlinewebfonts.com/t/06d0fb8eb5251a7dba7660fab5d2f0f9.eot");
+    src: url("//db.onlinewebfonts.com/t/06d0fb8eb5251a7dba7660fab5d2f0f9.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/06d0fb8eb5251a7dba7660fab5d2f0f9.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/06d0fb8eb5251a7dba7660fab5d2f0f9.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/06d0fb8eb5251a7dba7660fab5d2f0f9.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/06d0fb8eb5251a7dba7660fab5d2f0f9.svg#Formula1 Display Bold") format("svg");
+}
+
+@font-face {
+    font-family: "Formula1 Display Regular";
+    src: url("//db.onlinewebfonts.com/t/39b9c22e1faf5a3e337ea935c1d1e318.eot");
+    src: url("//db.onlinewebfonts.com/t/39b9c22e1faf5a3e337ea935c1d1e318.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/39b9c22e1faf5a3e337ea935c1d1e318.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/39b9c22e1faf5a3e337ea935c1d1e318.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/39b9c22e1faf5a3e337ea935c1d1e318.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/39b9c22e1faf5a3e337ea935c1d1e318.svg#Formula1 Display Regular") format("svg");
+}
