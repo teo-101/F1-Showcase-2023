@@ -32,6 +32,11 @@ body {
     text-align: center;
     flex-grow: 1; /* to fill the available space */
     margin-right: 160px; /* to create space between items */
+    text-decoration: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 #navLogo {
@@ -87,6 +92,10 @@ body {
     font-size: 15px;
     display: flex;
     align-items: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 #teamTitle {
@@ -120,6 +129,10 @@ body {
     width: 600px;
     height: 200px;
     transition: all .2s ease-in-out;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .showImage:hover {

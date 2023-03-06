@@ -17,38 +17,36 @@
 	<div id="navBar">
     <img id="navLogo" class="navBarItems" src="src\F1-LOGO.png">
 
-		<div id="carList" class="navBarItems">
+		<a id="carList" type="button" class="navBarItems" onclick="document.getElementById('teamContainer').scrollIntoView();">
 			Showcase
-		</div>
+		</a>
 
-		<div id="watch" class="navBarItems">
+		<a id="watch" type="button" class="navBarItems" href="https://www.formula1.com/">
 			Watch F1
-		</div>
+		</a>
 
-    <div id="calendar" class="navBarItems">
+    <a id="calendar" type="button" class="navBarItems" href="https://www.formula1.com/en/racing/2023.html">
       2023 Calendar
     </div>
 
-		<div id="github" class="navBarItems">
+		<a id="github" type="button" class="navBarItems" href="https://github.com/teo-101/F1-Showcase-2023">
 			Github
-		</div>
-	</div><br><br>
-
-  <!--TODO: Figure out the designe and make a team showcase selector + scrollintoview()-->
+		</a>
+	</div><br>
 
 	<div id="teamContainer">
 		<h3 id="teamTitle">Select a Team</h3>
 		<div id="teamSelect">
-			<a id="redbull" onclick="document.getElementById('rb').scrollIntoView();">Redbull</a>
-			<a id="ferrari" onclick="document.getElementById('fr').scrollIntoView();">Ferrari</a>
-			<a id="mercedes" onclick="document.getElementById('merc').scrollIntoView();">Mercedes</a>
-			<a id="alpine" onclick="document.getElementById('alp').scrollIntoView();">Alpine</a>
-			<a id="mclaren" onclick="document.getElementById('mc').scrollIntoView();">Mclaren</a>
-			<a id="alfaRomeo" onclick="document.getElementById('alfa').scrollIntoView();">Alfa Romeo</a>
-			<a id="astonMartin" onclick="document.getElementById('am').scrollIntoView();">Aston Martin</a>
-			<a id="haas" onclick="document.getElementById('h').scrollIntoView();">Haas</a>
-			<a id="alphatauri" onclick="document.getElementById('alpha').scrollIntoView();">Alphatauri</a>
-			<a id="williams" onclick="document.getElementById('w').scrollIntoView();">Williams</a>
+			<a id="redbull" type="button" onclick="document.getElementById('rb').scrollIntoView();">Redbull</a>
+			<a id="ferrari" type="button" onclick="document.getElementById('fr').scrollIntoView();">Ferrari</a>
+			<a id="mercedes" type="button" onclick="document.getElementById('merc').scrollIntoView();">Mercedes</a>
+			<a id="alpine" type="button" onclick="document.getElementById('alp').scrollIntoView();">Alpine</a>
+			<a id="mclaren" type="button" onclick="document.getElementById('mc').scrollIntoView();">Mclaren</a>
+			<a id="alfaRomeo" type="button" onclick="document.getElementById('alfa').scrollIntoView();">Alfa Romeo</a>
+			<a id="astonMartin" type="button" onclick="document.getElementById('am').scrollIntoView();">Aston Martin</a>
+			<a id="haas" type="button" onclick="document.getElementById('h').scrollIntoView();">Haas</a>
+			<a id="alphatauri" type="button" onclick="document.getElementById('alpha').scrollIntoView();">Alphatauri</a>
+			<a id="williams" type="button" onclick="document.getElementById('w').scrollIntoView();">Williams</a>
 		</div>
 	</div><br>
 
@@ -60,7 +58,7 @@
 			<img src="src\redbull\18.webp" class="showImage">
 			<img src="src\redbull\v2_large_5c89adc99c901c64fa95d83f12baf920e70ac2d6.jpg" class="showImage">
 		</div>
-	</div>
+	</div><br>
 
 	<div id="fr">
 		<h2 class="teamTitles">&bullet;Ferrari</h2><br>
@@ -70,7 +68,7 @@
 			<img src="src\ferrari\image.jpg" class="showImage">
 			<img src="src\ferrari\Ferrari.0.jpeg" class="showImage">
 		</div>
-	</div>
+	</div><br>
 
 	<div id="merc">
 		<h2 class="teamTitles">&bullet;Mercedes</h2><br>
@@ -80,7 +78,7 @@
 			<img src="src\mercedes\mercedes-w14-1.jpg" class="showImage">
 			<img src="src\mercedes\george-russell-mercedes-f1-w14.jpg" class="showImage">
 		</div>
-	</div>
+	</div><br>
 
 	<div id="alp">
 		<h2 class="teamTitles">&bullet;Alpine Renault</h2><br>
@@ -90,7 +88,7 @@
 			<img src="src\alpine\skysports-alpine-f1-2023-car_6059841.jpg" class="showImage">
 			<img src="src\alpine\skysports-alpine-f1-2023-car_6059835.jpg" class="showImage">
 		</div>
-	</div>
+	</div><br>
 
 	<div id="mc">
 		<h2 class="teamTitles">&bullet;Mclaren Mercedes</h2><br>
@@ -100,7 +98,7 @@
 			<img src="src\mclaren\mclaren-mcl60-1.jpg" class="showImage">
 			<img src="src\mclaren\skysports-lando-norris-mclaren_5962333.jpg" class="showImage">
 		</div>
-	</div>
+	</div><br>
 
 	<div id="alfa">
 		<h2 class="teamTitles">&bullet;Alfa Romeo Ferrari</h2><br>
@@ -110,7 +108,7 @@
 			<img src="src\alfaRomeo\alfa-romeo-c43-1.jpg" class="showImage">
 			<img src="src\alfaRomeo\FoWm7RJXsAICjn-.jpeg" class="showImage">
 		</div>
-	</div>
+	</div><br>
 
 	<div id="am">
 		<h2 class="teamTitles">&bullet;Aston Martin Aramco Mercedes</h2><br>
@@ -120,7 +118,7 @@
 			<img src="src\astonMartin\AM23_CAR_2548 TC 16x9.jpg" class="showImage">
 			<img src="src\astonMartin\aston-martin.jpg" class="showImage">
 		</div>
-	</div>
+	</div><br>
 
 	<div id="h">
 		<h2 class="teamTitles">&bullet;Haas Ferrari</h2><br>
@@ -130,7 +128,7 @@
 			<img src="src\haas\skysports-haas-launch-2023_6042030.jpg" class="showImage">
 			<img src="src\haas\vf-23-livery-hulk-1-1675180845.jpg" class="showImage">
 		</div>
-	</div>
+	</div><br>
 
 	<div id="alpha">
 		<h2 class="teamTitles">&bullet;Alphatauri RBPT</h2><br>
@@ -140,7 +138,7 @@
 			<img src="src\alphaTauri\skysports-alpha-tauri-f1-2023_6054518.jpg" class="showImage">
 			<img src="src\alphaTauri\alphatauri.avif" class="showImage">
 		</div>
-	</div>
+	</div><br>
 
 	<div id="w">
 		<h2 class="teamTitles">&bullet;Williams Mercedes</h2><br>
@@ -150,6 +148,6 @@
 			<img src="src\williams\williams-fw45-1.jpg" class="showImage">
 			<img src="src\williams\46722eb656818e2772b86d74d9807c2ef1d8e164-8451x5637.webp" class="showImage">
 		</div>
-	</div>
+	</div><br>
 </body>
 </html>
