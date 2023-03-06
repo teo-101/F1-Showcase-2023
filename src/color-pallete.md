@@ -3,3 +3,4 @@
 -**Grey** #38383f<br>
 -**Black** #000000<br>
 -**White** #ffffff<br>
+-**Light Grey** #999999<br>
