@@ -6,6 +6,7 @@ body {
     background-color: #ffffff;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 /* Navigation Bar Styling */
@@ -118,5 +119,30 @@ body {
 #rbContainer img {
     width: 600px;
     height: 200px;
-    
+    transition: all .2s ease-in-out;
+}
+
+.showImage:hover {
+    scale: 1.2;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+#rbContainer:hover > :not(:hover) {
+    filter: brightness(70%);
+}
+
+/* Scroll bar Styling */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #38383f;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    border-radius: 20px;
 }
